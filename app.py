@@ -1,3 +1,4 @@
+pip install fastai
 import streamlit as st
 from fastai.vision.all import *
 import pathlib
