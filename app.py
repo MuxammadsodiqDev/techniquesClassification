@@ -8,7 +8,7 @@ plt = platform.system()
 if plt == 'Linux': pathlib.WindowsPath = pathlib.PosixPath
 
 #title
-st.title("Tehnikalarni klassifikatsiya qiluvchi model")
+st.title("Tehnikalarni klassifikatsiya qiluvchi model (telephone,television,laptop")
 
 #rasmni jaylash 
 file = st.file_uploader("Ream yuklash", type=['png','jpeg','gif','svg'])
