@@ -11,7 +11,7 @@ if plt == 'Linux': pathlib.WindowsPath = pathlib.PosixPath
 st.title("Tehnikalarni klassifikatsiya qiluvchi model (telephone,television,laptop)")
 
 #rasmni jaylash 
-file = st.file_uploader("Resm yuklash", type=['png','jpeg','gif','svg'])
+file = st.file_uploader("Rasm yuklash", type=['png','jpeg','gif','svg'])
 if file:
     st.image(file)
     #PIL convert
